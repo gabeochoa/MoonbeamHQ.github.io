@@ -285,12 +285,12 @@ h3 {
 	}
 	[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 	[class^="flaticon-"]:after, [class*=" flaticon-"]:after {  
-		color: #f83b77;
+		color: #fd487d;
 		font-size: 70px;
 		margin-bottom: 20px;
 		padding: 1px;
 		display: block;
-		background-color: #563871;
+		background: -webkit-linear-gradient(#fd487d, #563871);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
