@@ -207,7 +207,8 @@ h3 {
 	background-color: #222631;
 }	
 	#header .container-fluid {
-		background: linear-gradient(to bottom right, rgba(86,56,113,.6), rgba(86,56,113,.6), rgba(253,72,125,.6)), url(images/hero.jpg),;
+		background: -webkit-linear-gradient(to bottom right, rgba(86,56,113,.6), rgba(86,56,113,.6), rgba(253,72,125,.6)), url(images/hero.jpg);
+		background: linear-gradient(to bottom right, rgba(86,56,113,.6), rgba(86,56,113,.6), rgba(253,72,125,.6)), url(images/hero.jpg);
 		background-size: cover;
 		background-position: center bottom;
 		z-index: 1;
@@ -287,7 +288,7 @@ h3 {
 		margin-bottom: 20px;
 		padding: 1px;
 		display: block;
-		background: -webkit-linear-gradient(rgba(253,72,125,1), #563871);
+		background-color: #563871;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
@@ -310,6 +311,7 @@ h3 {
 }
 	#about .container-fluid {
 		padding: 130px 0px 180px;
+		background: -webkit-linear-gradient(to bottom, rgba(86,56,113,.9), rgba(253,72,125,.9)), url(images/moon.jpg);
 		background: linear-gradient(to bottom, rgba(86,56,113,.9), rgba(253,72,125,.9)), url(images/moon.jpg);
 		background-size: cover;
 		background-position: center bottom;
