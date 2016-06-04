@@ -132,7 +132,7 @@ h3 {
 	position: relative;
 	top: -5px;
 }
-.logotext {
+.logotype {
 	max-height: 18px;
 	float: left;
 	position: relative;
@@ -245,9 +245,8 @@ h3 {
 	}
 	#services .card {
 		border: 1px solid #282d39;
-		max-width: 350px;
-		padding: 40px 25px;
 		margin: 5px;
+		padding: 40px 25px;
     	transition-duration: .8s;
 	}
 	#services .card:hover {
@@ -308,13 +307,13 @@ h3 {
 		border: none;
 		display: block;
 		margin: 0px auto 20px;
-		width: 100%;
+		width: 90%;
 		max-width: 700px;
 	}
 	#contact textarea[name=body] {
 		display: block;
 		resize: none;
-		width: 100%;
+		width: 90%;
 		max-width: 700px;
 		min-height: 200px;
 		margin: 0px auto 50px;
@@ -350,3 +349,35 @@ h3 {
 	#footer .pillars {
 		padding: 0px 20px;
 	}
+
+
+.sm-only { display: none; }
+/* large */
+@media (max-width: 1200px) {
+	#header .container { padding: 200px 0px; }
+	#header h1 { font-size: 3rem; }
+	#header h2 { font-size: 1.3rem; }
+}
+/* medium */
+@media (max-width: 900px) {
+	#header .container { padding: 150px 0px 100px; }
+	#header h1 { font-size: 2rem; 
+		margin-bottom: 30px;
+	}
+	#header h2 { display: none; }
+	.button {
+		padding: 12px 40px;
+		font-size: .8rem;
+	}
+}
+/* small */
+@media (max-width: 600px) {
+	h1 { font-size: 2.5rem; }
+	h2 { font-size: 1.2rem; }
+	#header h1 { font-size: 1.7rem; }
+	.logotype { display: none; }
+	.md-only { display: none; }
+	.sm-only { display: inline; }
+	#footer li { display: block; }
+	.sm-hide { display: none; visibility: hidden; }
+}
