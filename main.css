@@ -285,7 +285,7 @@ h3 {
 
 #contact {
 	background-color: #222631;
-	padding: 100px 0px;
+	padding: 100px 0px 150px;
 }
 	#contact h1 {
 		color: #efefef;
@@ -298,10 +298,8 @@ h3 {
 	}
 	#contact a {
 		font-size: 2rem;
-		text-decoration: underline;
 		text-underline-position: 5px;
-		letter-spacing: 1px;
-		font-weight: 600;
+		font-weight: 900;
 	}
 	#contact .button {
 		border-radius: 25px;
@@ -394,4 +392,7 @@ h3 {
 	.sm-only { display: inline; }
 	#footer li { display: block; }
 	.sm-hide { display: none; visibility: hidden; }
+		#contact a {
+		font-size: 1.5rem;
+	}
 }
