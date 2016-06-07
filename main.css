@@ -296,12 +296,19 @@ h3 {
 		font-style: italic;
 		margin-bottom: 100px;
 	}
+	#contact a {
+		font-size: 2rem;
+		text-decoration: underline;
+		text-underline-position: 5px;
+		letter-spacing: 1px;
+		font-weight: 600;
+	}
 	#contact .button {
 		border-radius: 25px;
 	}
 	#contact input[type=email] {
 		color: #efefef;
-		background-color: #282d39;
+		background-color: #303747;
 		letter-spacing: 2px;
 		padding: 15px;
 		border: none;
@@ -309,6 +316,10 @@ h3 {
 		margin: 0px auto 20px;
 		width: 90%;
 		max-width: 700px;
+		outline: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
 	}
 	#contact textarea[name=body] {
 		display: block;
@@ -318,11 +329,14 @@ h3 {
 		min-height: 200px;
 		margin: 0px auto 50px;
 		padding: 15px;
-		background-color: #282d39;
+		background-color: #303747;
 		border: none;
 		letter-spacing: 2px;
 		color: #efefef;
-
+		outline: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
 	}
 
 #footer {
